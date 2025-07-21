@@ -1,0 +1,170 @@
+<resources>
+    <string name="app_name">My Application</string>
+    <string name="Address">Address </string>
+    <string name="Companies">Companies</string>
+    <string name="Name">Name</string>
+    <string name="Street">Street</string>
+    <string name="City">City</string>
+    <string name="Zip">Zip</string>
+    <string name="GeoHash">Geo Hash</string>
+    <string name="Description">Description</string>
+    <string name="Mail">Mail</string>
+    <string name="Url">Url</string>
+    <string name="Location">Location</string>
+    <string name="Messages">Messages</string>
+    <string name="Organization">Organization</string>
+    <string name="OpeningHours">Opening Hours\n</string>
+    <string name="ProductGroup">Product Group</string>
+    <string name="DeliveryService">Delivery Service</string>
+    <string name="Owner">Owner</string>
+    <string name="Types">Types</string>
+    <string name="Result">Result</string>
+    <string name="OrganizationsName">Organizations Name</string>
+    <string name="SelectedOrganizationsName"> Select Organizations </string>
+    <string name="OpeningHoursComments">Opening Hours Comments</string>
+    <string name="ProductsDescription">Products Description</string>
+    <string name="SelectCategory">&#160;Select Category</string>
+    <string name="Search">&#160;Search</string>
+    <string name="show_location">&#160;show Location</string>
+    <string name="Categories">Categories</string>
+    <string name="RawProduct">Raw Product</string>
+    <string name="Seasons">Seasons</string>
+    <string name="ProductTags">Product Tags</string>ProductDescription
+    <string name="ProductDescription">Product Description</string>
+    <string name="Closed">Closed</string>
+    <string name="CurrentlyOpen">Currently open</string>
+    <string name="monday">Monday</string>
+    <string name="tuesday">Tuesday</string>
+    <string name="wednesday">Wednesday</string>
+    <string name="thursday">Thursday</string>
+    <string name="friday">Friday</string>
+    <string name="saturday">Saturday</string>
+    <string name="sunday">Sunday</string>
+    <string name= "Ok" >OK</string>
+    <string name= "Cancel" >Cancel </string>
+    <string name= "SelectTypes" > Select Types</string>
+    <string name="Producer">Producer</string>
+    <string name="Shop">Shop</string>
+    <string name="Mart">Mart</string>
+    <string name="Vegetables">Vegetables</string>
+    <string name="Fruits">Fruits</string>
+    <string name="Meat">Meat</string>
+    <string name="Meatproducts">Meat products</string>
+    <string name="Cereals">Cereals</string>
+    <string name="Milk">Milk</string>
+    <string name="Milkproducts">Milk products</string>
+    <string name="Eggs">Eggs</string>
+    <string name="Honey">Honey</string>
+    <string name="Beverages">Beverages</string>
+    <string name="Bakedgoods">Backed goods</string>
+    <string name="Pasta">Pasta</string>
+    <string name="raw">Raw</string>
+    <string name="notRaw">Not Raw</string>
+    <string name="Restaurant">Restaurant</string>
+    <string name="Hotel">Hotel</string>
+    <string name="available">available</string>
+    <string name="notavailable">not available</string>
+    <string name="Spring">Spring</string>
+    <string name="Summer">Summer</string>
+    <string name="Autumn">Autumn</string>
+    <string name="Winter">Winter</string>
+    <string name="Rest">Rest</string>
+    <string name="Hour">Hour</string>
+    <string name="minute">Minute</string>
+    <string name="isFavorite">Favorite</string>
+    <string name="SelectTime">Select Time</string>isFavorit
+    <string name="NothingFound">Nothing Found! please reselect another option!</string>
+
+    <string-array name="categories">
+
+        <item>Name</item>
+
+        <item>Owner</item>
+
+        <item>Address</item>
+
+        <item>Description</item>
+
+        <item>Types</item>
+
+        <item>Organizations</item>
+
+        <item>OpeningHours Comments</item>
+
+        <item>Messages</item>
+
+        <item>Product Groups</item>
+
+        <item>Products Description</item>
+    </string-array>
+
+    -<string-array name="productsGroups">
+    <item>Vegetables</item>
+    <item>Fruits</item>
+    <item>Meat</item>
+
+    <item>Meatproducts</item>
+
+    <item>Cereals</item>
+
+    <item>Milk</item>
+
+    <item>Milk Products</item>
+
+    <item>Eggs</item>
+
+    <item>Honey</item>
+
+    <item>Beverages</item>
+
+    <item>Bakedgoods</item>
+
+    <item>Pasta</item>
+
+</string-array>
+
+    -<string-array name="Types">
+
+    <item>Producer</item>
+
+    <item>Shop</item>
+
+    <item>Restaurant</item>
+
+    <item>Mart</item>
+
+    <item>Hotel</item>
+</string-array>
+
+    -<string-array name="OrgName">
+
+    <item>Hepperle, Franke und Kuschewitz</item>
+    <item>Eich, Heuck und Kölotzei</item>
+    <item>  Gutjahr, Scheurer und Griese</item>
+    <item>  Ghosh-Schuermann</item>
+</string-array>
+    <string-array name="Days">
+
+    <item>monday</item>
+
+    <item>tuesday</item>
+
+    <item>wednesday</item>
+
+    <item>thursday</item>
+
+    <item>friday</item>
+
+    <item>saturday</item>
+
+    <item>sunday</item>
+
+</string-array>
+
+    <string-array name="lang">
+        <item>En</item>
+        <item>De</item>
+    </string-array>
+
+
+</resources>

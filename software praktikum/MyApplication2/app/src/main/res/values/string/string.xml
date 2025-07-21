@@ -1,0 +1,60 @@
+<resources>
+    <string name="app_name">My Application</string>
+    <string name="Address">Address: </string>
+    <string name="Companies">Companies</string>
+    <string name="Name">Name</string>
+    <string name="Street">Street</string>
+    <string name="City">City</string>
+    <string name="Zip">Zip</string>
+    <string name="GeoHash">Geo Hash</string>
+    <string name="Description">Description</string>
+    <string name="Mail">Mail</string>
+    <string name="Url">Url</string>
+    <string name="Location">Location</string>
+    <string name="Messages">Messages</string>
+    <string name="Organization">Organization</string>
+    <string name="OpeningHours">Opening Hours\n</string>
+    <string name="ProductGroup">Product Group</string>
+    <string name="DeliveryService">Delivery Service</string>
+    <string name="Owner">Owner</string>
+    <string name="Types">Types</string>
+    <string name="Result">Result</string>
+    <string name="OrganizationsName">Organizations Name</string>
+    <string name="OpeningHoursComments">Opening Hours Comments</string>
+    <string name="ProductsDescription">Products Description</string>
+    <string name="SelectCategory">&#160;Select Category</string>
+    <string name="Search">&#160;Search</string>
+    <string name="show_location">&#160;show Location</string>
+    -
+    <string-array name="categories">
+
+        <item>Name</item>
+
+        <item>Owner</item>
+
+        <item>Address</item>
+
+        <item>Description</item>
+
+        <item>Types</item>
+
+        <item>Organizations</item>
+
+        <item>OpeningHours Comments</item>
+
+        <item>Messages</item>
+
+        <item>Product Groups</item>
+
+        <item>Products Description</item>
+    </string-array>
+
+    <string-array name="lang">
+        <item>En</item>
+        <item>De</item>
+    </string-array>
+
+
+
+
+</resources>

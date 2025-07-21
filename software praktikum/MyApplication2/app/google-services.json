@@ -1,0 +1,40 @@
+{
+  "project_info": {
+    "project_number": "955839456207",
+    "firebase_url": "https://sp21-backend-default-rtdb.europe-west1.firebasedatabase.app",
+    "project_id": "sp21-backend",
+    "storage_bucket": "sp21-backend.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:955839456207:android:462998297ffff17a9ca8ba",
+        "android_client_info": {
+          "package_name": "de.uni_marburg.sp21"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "955839456207-vm21268oajihbherumut14gm0ksc86t4.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyA9vfQGy_07TV9OkwTMWQhDUSXE6bd-6Hc"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "955839456207-vm21268oajihbherumut14gm0ksc86t4.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

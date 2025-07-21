@@ -1,0 +1,70 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".SignUpActivity">
+
+
+    <Button
+        android:id="@+id/btnSingUp"
+        android:layout_width="117dp"
+        android:layout_height="39dp"
+        android:layout_marginBottom="301dp"
+        android:background="@drawable/roundcorners"
+        android:text="Sign up"
+        android:textAlignment="center"
+        android:textAllCaps="false"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/edSingUpPassword" />
+
+    <EditText
+        android:id="@+id/edSingUpName"
+        android:layout_width="217dp"
+        android:layout_height="51dp"
+        android:layout_marginBottom="516dp"
+        android:background="@drawable/editbox"
+        android:ems="10"
+        android:padding="10dp"
+        android:hint="Name"
+        android:inputType="text"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/toolbar3" />
+
+    <androidx.appcompat.widget.Toolbar
+        android:id="@+id/toolbar3"
+        android:layout_width="0dp"
+        android:layout_height="56dp"
+        android:layout_marginBottom="140dp"
+        android:background="@color/purple_200"
+        android:minHeight="?attr/actionBarSize"
+        android:theme="?attr/actionBarTheme"
+        app:layout_constraintBottom_toTopOf="@+id/edSingUpName"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toStartOf="parent"
+        app:title="Register "
+        app:titleTextAppearance="@style/TextAppearance.AppCompat.Large"
+        app:titleTextColor="#FFFFFF" />
+
+    <EditText
+        android:id="@+id/edSingUpPassword"
+        android:layout_width="211dp"
+        android:layout_height="49dp"
+        android:layout_marginTop="32dp"
+        android:layout_marginBottom="51dp"
+        android:background="@drawable/editbox"
+        android:ems="10"
+        android:padding="10dp"
+        android:hint="@string/Password_hint"
+        android:inputType="textPassword"
+        app:layout_constraintBottom_toTopOf="@+id/btnSingUp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/edSingUpName" />
+</androidx.constraintlayout.widget.ConstraintLayout>

@@ -1,0 +1,71 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:contextClickable="false"
+    tools:context=".LoginActivity">
+
+
+    <Button
+        android:id="@+id/btnLogin"
+        android:layout_width="117dp"
+        android:layout_height="38dp"
+        android:layout_marginBottom="278dp"
+        android:background="@drawable/roundcorners"
+        android:text="@string/button_label"
+        android:textAlignment="center"
+        android:textAllCaps="false"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.497"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/edPassword" />
+
+    <EditText
+        android:id="@+id/edUsername"
+        android:layout_width="188dp"
+        android:layout_height="48dp"
+        android:layout_marginBottom="62dp"
+        android:background="@drawable/editbox"
+        android:hint="@string/Username_hint"
+        android:padding="10dp"
+        android:inputType="text"
+        app:layout_constraintBottom_toTopOf="@+id/edPassword"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/mytoolbar" />
+
+    <EditText
+        android:id="@+id/edPassword"
+        android:layout_width="188dp"
+        android:layout_height="47dp"
+        android:layout_marginBottom="56dp"
+        android:background="@drawable/editbox"
+        android:hint="@string/Password_hint"
+        android:padding="10dp"
+        android:inputType="textPassword"
+        app:layout_constraintBottom_toTopOf="@+id/btnLogin"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/edUsername" />
+
+    <androidx.appcompat.widget.Toolbar
+        android:id="@+id/mytoolbar"
+        android:layout_width="0dp"
+        android:layout_height="0dp"
+        android:layout_marginBottom="124dp"
+        android:background="?attr/colorPrimary"
+        android:minHeight="?attr/actionBarSize"
+        android:theme="?attr/actionBarTheme"
+        app:layout_constraintBottom_toTopOf="@+id/edUsername"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:title="Login"
+        app:titleTextAppearance="@style/TextAppearance.AppCompat.Large"
+        app:titleTextColor="#FFFFFF" />
+
+</androidx.constraintlayout.widget.ConstraintLayout>

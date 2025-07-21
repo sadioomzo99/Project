@@ -1,0 +1,6 @@
+package de.uni_marburg.sp21.Model;
+
+public enum Categories {
+    VEGETABLES, FRUITS, MEAT, MEATPRODUCTS, CEREALS, MILK, MILKPRODUCTS, EGGS, HONEY, BEVERAGES, BAKEDGOODS, PASTA;
+
+}

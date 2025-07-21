@@ -1,0 +1,83 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".WelcomeActivity">
+
+    <androidx.appcompat.widget.Toolbar
+        android:id="@+id/toolbar"
+        android:layout_width="396dp"
+        android:layout_height="77dp"
+        android:layout_alignParentEnd="true"
+        android:background="?attr/colorPrimary"
+        android:minHeight="?attr/actionBarSize"
+        android:theme="?attr/actionBarTheme"
+        android:transitionGroup="false"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <Button
+        android:id="@+id/changePassword"
+        android:layout_width="177dp"
+        android:layout_height="54dp"
+        android:layout_marginTop="40dp"
+        android:layout_marginBottom="360dp"
+        android:background="@drawable/roundcorners"
+        android:text="Change Password"
+        android:textAlignment="center"
+        android:textAllCaps="false"
+        android:textSize="14sp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/edWelcomePassword" />
+
+    <EditText
+        android:id="@+id/edWelcomePassword"
+        android:layout_width="224dp"
+        android:layout_height="51dp"
+        android:layout_marginTop="159dp"
+        android:background="@drawable/editbox"
+        android:padding="10dp"
+        android:ems="10"
+        android:hint="Password"
+        android:inputType="textPassword"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/toolbar" />
+
+    <ImageButton
+        android:id="@+id/btnLogout"
+        android:layout_width="39dp"
+        android:layout_height="35dp"
+        android:layout_marginStart="104dp"
+        android:layout_marginTop="7dp"
+        android:layout_marginBottom="7dp"
+        android:contextClickable="false"
+        app:layout_constraintBottom_toBottomOf="@+id/toolbar"
+        app:layout_constraintStart_toEndOf="@+id/welcomeUser"
+        app:layout_constraintTop_toTopOf="@+id/toolbar"
+        app:layout_constraintVertical_bias="0.464"
+        app:srcCompat="@drawable/baseline_logout_black_18" />
+
+    <TextView
+        android:id="@+id/welcomeUser"
+        android:layout_width="214dp"
+        android:layout_height="46dp"
+        android:layout_marginStart="30dp"
+        android:layout_marginTop="15dp"
+        android:layout_marginEnd="159dp"
+        android:layout_marginBottom="147dp"
+        android:textAlignment="center"
+        android:textAllCaps="false"
+        android:textColor="#FFFFFF"
+        android:textSize="18sp"
+        app:layout_constraintBottom_toTopOf="@+id/edWelcomePassword"
+        app:layout_constraintEnd_toStartOf="@+id/btnLogout"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.192" />
+
+</androidx.constraintlayout.widget.ConstraintLayout>
