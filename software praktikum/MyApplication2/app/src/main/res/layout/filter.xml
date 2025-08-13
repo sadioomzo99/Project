@@ -1,0 +1,199 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+    <androidx.constraintlayout.widget.ConstraintLayout android:layout_height="match_parent" android:layout_width="match_parent" xmlns:tools="http://schemas.android.com/tools" xmlns:app="http://schemas.android.com/apk/res-auto" xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <Switch
+        android:id="@+id/switch1"
+        android:layout_width="184dp"
+        android:layout_height="39dp"
+        android:layout_marginStart="10dp"
+        android:layout_marginTop="16dp"
+        android:layout_marginEnd="40dp"
+        android:background="@drawable/square"
+        android:padding="5dp"
+        android:text="@string/DeliveryService"
+        android:thumbTint="#222222"
+        android:trackTint="#779DC3"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toEndOf="@+id/isOpen"
+        app:layout_constraintTop_toTopOf="parent"
+        tools:ignore="UseSwitchCompatOrMaterialXml" />
+
+    <Switch
+        android:id="@+id/isOpen"
+        android:layout_width="184dp"
+        android:layout_height="39dp"
+        android:layout_marginStart="30dp"
+        android:layout_marginTop="16dp"
+        android:background="@drawable/square"
+        android:padding="10dp"
+        android:text="@string/CurrentlyOpen"
+        android:textAllCaps="false"
+        android:thumbTint="#F8302F2F"
+        android:trackTint="#779DC3"
+        app:layout_constraintEnd_toStartOf="@+id/switch1"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        tools:ignore="UseSwitchCompatOrMaterialXml" />
+
+    <Button
+        android:id="@+id/Categ"
+        android:layout_width="188dp"
+        android:layout_height="50dp"
+        android:layout_marginStart="20dp"
+        android:layout_marginTop="67dp"
+        android:background="@drawable/round_corner"
+        android:onClick="showPopup1"
+        android:text="@string/SelectCategory"
+        android:textAllCaps="false"
+        app:layout_constraintEnd_toStartOf="@+id/Comp_types"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/fav" />
+
+    <Button
+        android:id="@+id/Comp_types"
+        android:layout_width="188dp"
+        android:layout_height="50dp"
+        android:layout_marginStart="15dp"
+        android:layout_marginTop="135dp"
+        android:layout_marginEnd="15dp"
+        android:background="@drawable/round_corner"
+        android:onClick="showPopup2"
+        android:text="@string/SelectTypes"
+        android:textAllCaps="false"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toEndOf="@+id/Categ"
+        app:layout_constraintTop_toBottomOf="@+id/switch1" />
+
+    <Button
+        android:id="@+id/ok"
+        android:layout_width="194dp"
+        android:layout_height="50dp"
+        android:layout_marginStart="6dp"
+        android:layout_marginTop="201dp"
+        android:layout_marginEnd="12dp"
+        android:layout_marginBottom="4dp"
+        android:background="@drawable/round_corner"
+        android:text="@string/Ok"
+        android:textAllCaps="false"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toEndOf="@+id/reset"
+        app:layout_constraintTop_toBottomOf="@+id/minutetext" />
+
+    <Button
+        android:id="@+id/OrgButton"
+        android:layout_width="188dp"
+        android:layout_height="50dp"
+        android:layout_marginStart="15dp"
+        android:layout_marginTop="13dp"
+        android:layout_marginBottom="56dp"
+        android:background="@drawable/round_corner"
+        android:onClick="showPopupOrg"
+        android:text="@string/SelectedOrganizationsName"
+        android:textAllCaps="false"
+        app:layout_constraintBottom_toTopOf="@+id/Time"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/Categ" />
+
+    <Switch
+        android:id="@+id/Time"
+        android:layout_width="189dp"
+        android:layout_height="44dp"
+        android:layout_marginStart="20dp"
+        android:layout_marginTop="67dp"
+        android:layout_marginEnd="10dp"
+        android:background="@drawable/square"
+        android:padding="10dp"
+        android:text="@string/SelectTime"
+        android:thumbTint="#F8302F2F"
+        android:trackTint="#779DC3"
+        app:layout_constraintEnd_toStartOf="@+id/daySpinner"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/OrgButton"
+        tools:ignore="UseSwitchCompatOrMaterialXml" />
+
+    <EditText
+        android:id="@+id/hourtext"
+        android:layout_width="165dp"
+        android:layout_height="40dp"
+        android:layout_marginStart="13dp"
+        android:layout_marginTop="21dp"
+        android:layout_marginEnd="1dp"
+        android:background="@drawable/round_corner"
+        android:ems="10"
+        android:hint="@string/Hour"
+        android:inputType="textPersonName"
+        android:textAlignment="center"
+        app:layout_constraintEnd_toStartOf="@+id/minutetext"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/Time" />
+
+    <EditText
+        android:id="@+id/minutetext"
+        android:layout_width="165dp"
+        android:layout_height="40dp"
+        android:layout_marginTop="21dp"
+        android:layout_marginEnd="20dp"
+        android:background="@drawable/round_corner"
+        android:ems="10"
+        android:hint="@string/minute"
+        android:inputType="textPersonName"
+        android:padding="5dp"
+        android:textAlignment="center"
+        android:textSize="18sp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toEndOf="@+id/hourtext"
+        app:layout_constraintTop_toBottomOf="@+id/daySpinner" />
+
+    <Spinner
+        android:id="@+id/daySpinner"
+        android:layout_width="189dp"
+        android:layout_height="44dp"
+        android:layout_marginStart="5dp"
+        android:layout_marginTop="128dp"
+        android:layout_marginEnd="20dp"
+        android:background="@drawable/round_corner"
+        android:padding="2sp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toEndOf="@+id/Time"
+        app:layout_constraintTop_toBottomOf="@+id/Comp_types" />
+
+    <Switch
+        android:id="@+id/fav"
+        android:layout_width="184dp"
+        android:layout_height="39dp"
+        android:layout_marginStart="30dp"
+        android:layout_marginTop="26dp"
+        android:layout_marginEnd="220dp"
+        android:layout_marginBottom="67dp"
+        android:background="@drawable/square"
+        android:padding="4dp"
+        android:text="@string/isFavorite"
+        android:thumbTint="#F8302F2F"
+        android:trackTint="#779DC3"
+        app:layout_constraintBottom_toTopOf="@+id/Categ"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/isOpen" />
+
+    <Button
+        android:id="@+id/reset"
+        android:layout_width="194dp"
+        android:layout_height="50dp"
+        android:layout_marginStart="5dp"
+        android:layout_marginTop="201dp"
+        android:layout_marginEnd="1dp"
+        android:layout_marginBottom="4dp"
+        android:background="@drawable/round_corner"
+        android:text="@string/Rest"
+        android:textAllCaps="false"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toStartOf="@+id/ok"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/hourtext" />
+
+</androidx.constraintlayout.widget.ConstraintLayout>

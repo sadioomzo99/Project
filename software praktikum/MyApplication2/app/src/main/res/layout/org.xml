@@ -1,0 +1,75 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="150dp">
+
+
+    <ListView
+        android:id="@+id/name"
+        android:layout_width="184dp"
+        android:layout_height="39dp"
+        android:layout_marginStart="10dp"
+        android:layout_marginTop="4dp"
+        android:layout_marginEnd="60dp"
+        android:background="@drawable/square"
+        android:clickable="false"
+        android:padding="1dp"
+        android:textAlignment="center"
+        app:layout_constraintBottom_toTopOf="@+id/url"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toEndOf="@+id/nameText"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <ListView
+        android:id="@+id/url"
+        android:layout_width="181dp"
+        android:layout_height="37dp"
+        android:layout_marginStart="10dp"
+        android:layout_marginEnd="60dp"
+        android:layout_marginBottom="5dp"
+        android:background="@drawable/square"
+        android:clickable="false"
+        android:padding="1dp"
+        android:textAlignment="center"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toEndOf="@+id/urlText"
+        app:layout_constraintTop_toBottomOf="@+id/name" />
+
+    <TextView
+        android:id="@+id/nameText"
+        android:layout_width="110dp"
+        android:layout_height="28dp"
+        android:layout_marginStart="55dp"
+        android:layout_marginTop="10dp"
+        android:layout_marginEnd="17dp"
+        android:layout_marginBottom="9dp"
+        android:background="@drawable/round_corner"
+
+        android:text="@string/Name"
+        android:textAlignment="center"
+        app:layout_constraintBottom_toTopOf="@+id/urlText"
+        app:layout_constraintEnd_toStartOf="@+id/name"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <TextView
+        android:id="@+id/urlText"
+        android:layout_width="110dp"
+        android:layout_height="31dp"
+        android:layout_marginStart="55dp"
+        android:layout_marginTop="1dp"
+        android:layout_marginEnd="18dp"
+        android:layout_marginBottom="9dp"
+        android:background="@drawable/round_corner"
+        android:text="@string/Url"
+        android:textAlignment="center"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toStartOf="@+id/url"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/nameText" />
+
+
+</androidx.constraintlayout.widget.ConstraintLayout>

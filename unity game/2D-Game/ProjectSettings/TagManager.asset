@@ -1,0 +1,60 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!78 &1
+TagManager:
+  serializedVersion: 2
+  tags:
+  - Ground
+  - Background
+  - World
+  - light
+  - Coin
+  layers:
+  - Default
+  - TransparentFX
+  - Ignore Raycast
+  - 
+  - Water
+  - UI
+  - Ground
+  - CameraBounds
+  - World
+  - light
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  m_SortingLayers:
+  - name: Background
+    uniqueID: 1256533479
+    locked: 0
+  - name: Midground
+    uniqueID: 1926987111
+    locked: 0
+  - name: Foreground
+    uniqueID: 836073079
+    locked: 0
+  - name: Default
+    uniqueID: 0
+    locked: 0
+  - name: Player+Ground
+    uniqueID: 1182518227
+    locked: 0

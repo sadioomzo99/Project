@@ -1,0 +1,154 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">My Application</string>
+    <string name="Address">Adresse</string>
+    <string name="Companies">Unternehmen</string>
+    <string name="Name">Name</string>
+    <string name="Street">Straße</string>
+    <string name="City">Stadt</string>
+    <string name="Zip">Plz</string>
+    <string name="GeoHash">Geo Hash</string>
+    <string name="Description">Beschreibung</string>
+    <string name="Mail">Mail</string>
+    <string name="Url">Url</string>
+    <string name="Location">Standort</string>
+    <string name="Messages">Nachrichten</string>
+    <string name="Organization">Organisation</string>
+    <string name="OpeningHours">Öffnungszeiten\n</string>
+    <string name="ProductGroup">Produktgruppe</string>
+    <string name="DeliveryService">Lieferservice</string>
+    <string name="Types">Typen</string>
+    <string name="Owner">Besitzer</string>
+    <string name="OrganizationsName">Organisationsname</string>
+    <string name="OpeningHoursComments">ÖffnungszeitenKommentare</string>
+    <string name="ProductsDescription">ProdukteBeschreibung</string>
+    <string name="SelectCategory">&#160;Kategorie wählen</string>
+    <string name="Search">&#160;Suche</string>
+    <string name="Result">Ergebnisse</string>
+    <string name="show_location">&#160;Standort anzeigen</string>
+    <string name="Categories">Kategorien</string>
+    <string name="RawProduct">Rohprodukt</string>
+    <string name="Seasons">Jahreszeiten</string>
+    <string name="ProductTags">ProductTags</string>
+    <string name="ProductDescription">Beschreibung des Produkts</string>
+    <string name="Closed">geschloßen</string>
+    <string name="monday">Montag</string>
+    <string name="tuesday">Dienstag</string>
+    <string name="wednesday">Mittwoch</string>
+    <string name="thursday">Donnerstag</string>
+    <string name="friday">Freitag</string>
+    <string name="saturday">Samstag</string>
+    <string name="sunday">Sonntag</string>
+    <string name= "Ok" >Ok </string>
+    <string name= "Cancel" >stornieren </string>
+    <string name= "SelectTypes" > BetriebsArten Wählen </string>
+    <string name="Producer">Erzeuger</string>
+    <string name="Shop">Verkäufer</string>
+    <string name="Mart">Wochenmarkt</string>
+    <string name="Vegetables">Gemüse</string>
+    <string name="Fruits">Früchte</string>
+    <string name="Meat">Fleisch</string>
+    <string name="Meatproducts">Fleischprodukte</string>
+    <string name="Cereals">Getreide</string>
+    <string name="Milk">Milch</string>
+    <string name="Milkproducts">Milchprodukte</string>
+    <string name="Eggs">Eier</string>
+    <string name="Honey">Honig</string>
+    <string name="Beverages">Getränke</string>
+    <string name="Bakedgoods">Backwaren</string>
+    <string name="Pasta">Nuddel</string>
+    <string name="raw">Roh</string>
+    <string name="notRaw">nicht Roh</string>
+    <string name="Restaurant">Restaurant</string>
+    <string name="Spring">Frühling</string>
+    <string name="Hotel">Hotel</string>
+    <string name="available">verfügbar</string>
+    <string name="notavailable">Nicht verfügbar</string>
+    <string name="Summer">Sommer</string>
+    <string name="Autumn">Herbst</string>
+    <string name="Winter">Winter</string>
+    <string name="CurrentlyOpen">aktuell geöffnet</string>
+    <string name="Rest">Zurücksetzen</string>
+    <string name="SelectTime">Zeit auswählen</string>
+    <string name="Hour">Stunde</string>
+    <string name="isFavorite">Favourite</string>
+    <string name="minute">Minute</string>isFavorite
+    <string name="NothingFound"> Nichts gefunden! Bitte andere Kriterien wählen!</string>
+    <string name="SelectedOrganizationsName"> Organisationen wählen </string>
+    -<string-array name="categories">
+
+    <item>Name</item>
+
+    <item>Besitzer</item>
+
+    <item>Adresse</item>
+
+    <item>Beschreibung</item>
+
+    <item>Typen</item>
+
+    <item>Organisationen</item>
+
+    <item>Öffnungszeiten Kommentare</item>
+
+    <item>Nachrichten</item>
+
+    <item>Produkt Gruppe</item>
+
+    <item>Produkte Beschreibung</item>
+</string-array>
+
+    <string-array name="productsGroups">
+    <item>Gemüse</item>
+    <item>Früchte</item>
+    <item>Fleisch</item>
+
+    <item>Fleischprodukte</item>
+
+    <item>Getreide</item>
+
+    <item>Milch</item>
+
+    <item>Milchprodukte</item>
+
+    <item>Eier</item>
+
+    <item>Honig</item>
+
+    <item>Getränke</item>
+
+    <item>Backwaren</item>
+
+    <item>Nuddel</item>
+    </string-array>
+
+    <string-array name="Types">
+
+<item>Erzeuger</item>
+
+<item>Verkäufer</item>
+
+<item>Restaurant</item>
+
+<item>Wochenmarkt</item>
+
+<item>Hotel</item>
+</string-array>
+    <string-array name="Days">
+
+    <item>Montag</item>
+
+    <item>Dienstag</item>
+
+    <item>Mittwoch</item>
+
+    <item>Donnerstag</item>
+
+    <item>Freitag</item>
+
+    <item>Samstag</item>
+
+    <item>Sonntag</item>
+    </string-array>
+
+</resources>
